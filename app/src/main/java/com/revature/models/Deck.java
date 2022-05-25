@@ -10,7 +10,7 @@ public class Deck {
         cardList = new ArrayList<>();
         for (Card.Suit mySuit : Card.Suit.values()){
             for (Card.Value myValue : Card.Value.values()){
-                cardList.add(new Card(mySuit, myValue);
+                cardList.add(new Card(mySuit, myValue));
             }
         }
         Collections.shuffle(cardList);
