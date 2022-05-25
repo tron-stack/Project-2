@@ -15,4 +15,12 @@ public class Deck {
         }
         Collections.shuffle(cardList);
     }
+
+    public ArrayList<Card> getCardList() {
+        return cardList;
+    }
+
+    public void setCardList(ArrayList<Card> cardList) {
+        this.cardList = cardList;
+    }
 }
